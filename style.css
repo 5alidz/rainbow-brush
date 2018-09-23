@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+#controls{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #222;
+  color: #eee;
+  display: grid;
+  padding: 5px;
+}
+#settings{
+  margin-top: 8px;
+}
+#color-id{
+  height: 30px; 
+  margin: 6px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.40), 0 3px 6px rgba(0,0,0,0.40);
+}
+#clear-canvas{
+  padding: 4px;
+  background-color: #eee;
+  border: none;
+  font-weight: 600;
+  letter-spacing: .3em;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src='/app/index.js' type='module'></script>
+    <title>Rainbow-Brush</title>
+  </head>
+  <body dir="ltr">
+    <canvas id='canvas-draw' width='500px' height='500px'></canvas>
+    <div id='controls'>
+      <div style='display: flex; border-bottom: 1px solid white;'>
+        <label style='font-size: 18px; font-weight: 600;'>
+          Hide Setting
+        </label>
+        <input type='checkbox' id='setting-checkbox' checked>
+      </div>
+      <div id='settings'>
+        <div style='display: grid; grid-gap: 7px;'>
+          <label for="brush-size">Brush Size</label>
+          <input type="range" name='brush-size' min='1' max='500' id='brush-size'>
+          <div>
+            <label>Rainbow Mode</label>
+            <input type="checkbox" id='rainbow-mode' checked>
+          </div>
+          <div id='colors-controls'>
+            <div style='display: grid;'>
+              <label>Hue</label>
+              <input type="range" id='hue' min='0' max='360' class='color-control'>
+              <label>Saturation</label>
+              <input type="range" id='saturation' min='0' max='100' class='color-control'>
+              <label>Lightness</label>
+              <input type="range" id='lightness' min='0' max='100' class='color-control'>
+              <div id='color-id' style=''></div>
+            </div>
+          </div>
+          <input type="button" value="CLEAR CANVAS" id='clear-canvas'>
+        </div>
+      </div>
+    </div>
+    <div id='brush-indicator'></div>
+  </body>
+</html>
