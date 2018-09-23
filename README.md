@@ -1,2 +1,2 @@
 # rainbow-brush
-free open-source on the web drawing app 
+help me build this thing :D
