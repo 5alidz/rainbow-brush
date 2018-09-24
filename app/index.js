@@ -1,6 +1,5 @@
 /* TODO
- * for this to be done:
- * * better wiring for easy feature adding. [DONE...]
+ * * better wiring for easy feature adding.
  * * need to see the brush.
  * * add history.
  * * add ereaser.
