@@ -6,7 +6,6 @@ export const handleLastXY = (e) => {
 }
 export const handleMouseDown = (e) => {
   state.isDrawing = true
-  state.lastX = e.offsetX
-  state.lastY = e.offsetY
+  handleLastXY(e)
 }
 

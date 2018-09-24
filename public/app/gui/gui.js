@@ -1,6 +1,6 @@
 import state from '../state.js'
 
-import { gui } from './guiElements.js'
+import gui from './guiElements.js'
 
 import { handleRainbowToggle } from '../handlers/rainbow.js'
 import { handleHue, handleSat, handleLight } from '../handlers/color.js'

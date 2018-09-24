@@ -1,6 +1,8 @@
 import el from '../utils/el.js'
 
-export const gui = {
+/* getting elemenets by id*/
+
+const gui = {
   rainbow: el('rainbow-mode'),
   settingToggle: el('setting-checkbox'),
   sizeSlider: el('brush-size'),
@@ -10,3 +12,5 @@ export const gui = {
   clearCanvas: el('clear-canvas'),
   colorSwatch: el('color-id'),
 }
+
+export default gui

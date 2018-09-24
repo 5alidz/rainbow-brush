@@ -6,14 +6,12 @@ import updateColorSwatch from '../utils/updateColorSwatch.js'
 
 export const handleRainbowToggle = (e) => {
   const hsl = hexToHsl(state.current_hex())
+
   state._hue = hue.value = Math.floor(hsl.h)
   state._saturation = saturation.value = hsl.s
   state._lightness = lightness.value = hsl.l
-  if(e.target.checked){
-    state.rainbow = true
-  }else{
-    state.rainbow = false
-  }
+  state.rainbow = e.target.checked
+
   updateColorSwatch()
 }
 
