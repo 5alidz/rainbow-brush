@@ -17,4 +17,3 @@ prepare.context()
 
 gui_init()
 canvas_init()
-console.log('it works')
