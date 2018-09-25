@@ -10,7 +10,7 @@ export const handleRainbowToggle = (e) => {
   state._hue = hue.value = Math.floor(hsl.h)
   state._saturation = saturation.value = hsl.s
   state._lightness = lightness.value = hsl.l
-  state.rainbow = e.target.checked
+  state.isRainbow = e.target.checked
 
   updateColorSwatch()
 }

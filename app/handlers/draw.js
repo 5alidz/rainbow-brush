@@ -9,7 +9,7 @@ import { normalMode } from '../modes/normalMode.js'
 
 export default function draw(e){
   if(!state.isDrawing) return
-  if(state.rainbow) {
+  if(state.isRainbow) {
     rainbowMode()
   } else {
     normalMode()
